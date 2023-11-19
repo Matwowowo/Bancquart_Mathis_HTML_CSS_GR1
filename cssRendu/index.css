@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-image: url("../imgRendu/salleDeSport.gif");
+    background-size: 100%;
+
+}
+
+.topPage{ 
+
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #0043CBff
+}
+
+
+@font-face {
+    font-family: 'sfFont'; 
+    src: url('../fontRendu/CityBrawlersBoldCaps.otf');
+}
+
+@font-face {
+    font-family: 'fontMotiv';
+    src: url('../fontRendu/KdamThmorPro-Regular.ttf');
+}
+
+.millieuPage{
+
+    display: flex;
+}
+
+/*.sacDeFrappe{
+    float: left;
+}*/
+
+h1 {
+
+    background-color: #0043CBff;
+    font-family: 'sfFont';
+    font-size: 462%;
+    margin: auto;
+    width: 17%;
+    min-height: 10vh;
+}
+
+section {
+    
+    text-align: center;
+    width: 89%;
+    min-height: 100vh;
+}
+
+#texteMotiv{
+
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 40%;
+    min-height: 11vh;
+    margin: 0 auto;
+    
+}
+
+nav{
+    
+    line-height: 615%;
+    min-height: 100vh;
+    width: 12%;
+    background-color: #AE962Fff;
+}
+
+
+.bougez{
+    
+    margin: 10%;
+    width: 18%;
+    display: inline-block;
+    color: white;
+	font-size: 47px;
+	font-family: 'frontMotiv';
+    -webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 4px -4px 3px #0e1d02;
+
+}

@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+
+.topPage{ 
+
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #0043CBff
+}
+
+body{
+    background-color: aqua;
+}
+
+@font-face {
+    font-family: 'sfFont'; 
+    src: url('../fontRendu/CityBrawlersBoldCaps.otf');
+}
+
+.millieuPage{
+
+    display: flex;
+}
+
+h1 {
+
+    background-color: #0043CBff;
+    font-family: 'sfFont';
+    font-size: 462%;
+    margin: auto;
+    width: 17%;
+    min-height: 10vh;
+}
+
+nav{
+    
+    line-height: 615%;
+    min-height: 100vh;
+    width: 12%;
+    background-color: #AE962Fff;
+}
+
+.titreCoach{
+    width: 91%;
+    text-align: center;
+    margin: 5%;
+}
+
+section{
+    width: 75%;
+}
+
+.pCoach{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.imgCoach{
+    width: 25%;
+}
+
+.flexImgCoach{
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 79%
+}
+
+.flexCoach{
+    width: 87%;
+    display: flex;
+    justify-content: space-around;
+}

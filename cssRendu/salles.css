@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: aqua;
+    background-size: 100%;
+}
+
+.topPage{ 
+
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #0043CBff
+}
+
+@font-face {
+    font-family: 'sfFont'; 
+    src: url('../fontRendu/CityBrawlersBoldCaps.otf');
+}
+
+h1 {
+
+    background-color: #0043CBff;
+    font-family: 'sfFont';
+    font-size: 462%;
+    margin: auto;
+    width: 17%;
+    min-height: 10vh;
+}
+
+nav{
+    
+    line-height: 615%;
+    min-height: 100vh;
+    width: 22%;
+    background-color: #AE962Fff;
+}
+
+.millieuPage{
+
+    display: flex;
+}
+
+.salles{
+
+    justify-content: center;
+}
+
+#sallesPrez{
+    width: 71%;
+    text-align: center;
+    margin: 8%;
+
+}
+
+section{
+    width: 160%;
+    min-height: 100vh;
+}
+
+.metroCity{
+    width: 25%;
+}
+
+.flexImages{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nomVilles{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textServices{
+    margin: 5%;
+}
