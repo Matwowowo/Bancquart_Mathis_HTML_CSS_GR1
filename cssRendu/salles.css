@@ -37,10 +37,25 @@ nav{
     background-color: #AE962Fff;
 }
 
+.swiper-slide {
+    height: 60vh;
+}
+
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .millieuPage{
 
     display: flex;
-}
+} 
 
 .salles{
 
@@ -55,12 +70,12 @@ nav{
 }
 
 section{
-    width: 160%;
+    width: 90%;
     min-height: 100vh;
 }
 
 .metroCity{
-    width: 25%;
+    width: 50%;
 }
 
 .flexImages{
@@ -73,6 +88,20 @@ section{
     justify-content: space-around;
 }
 
+.textSlide{
+
+    position: absolute;
+    color: antiquewhite;
+    -webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 4px 1px 4px #0e1d02;
+    font-size: 130%;
+}
 .textServices{
-    margin: 5%;
+    position: absolute;
+    left: 32%;
+
+}
+
+a{
+    color: black;
 }

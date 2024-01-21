@@ -11,7 +11,8 @@ body {
 .topPage{ 
 
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
     background-color: #0043CBff
 }
 
@@ -29,6 +30,7 @@ body {
 .millieuPage{
 
     display: flex;
+    align-items: center;
 }
 
 /*.sacDeFrappe{
@@ -41,6 +43,7 @@ h1 {
     font-family: 'sfFont';
     font-size: 462%;
     margin: auto;
+    margin-left: 38%;
     width: 17%;
     min-height: 10vh;
 }
@@ -82,4 +85,13 @@ nav{
     -webkit-text-stroke: 1px #F8F8F8;
 	text-shadow: 4px -4px 3px #0e1d02;
 
+}
+
+a{
+    color: black;
+}
+
+.dark{
+
+    background-color: black;
 }

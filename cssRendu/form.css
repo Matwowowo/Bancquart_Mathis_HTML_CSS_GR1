@@ -1,0 +1,107 @@
+*{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+  }
+
+ .topPage{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0043CBff
+
+ }
+
+
+ 
+ h1 {
+
+    background-color: #0043CBff;
+    font-family: 'sfFont';
+    font-size: 462%;
+    margin: auto;
+    margin-left: 38%;
+    width: 17%;
+    min-height: 10vh;
+}
+
+nav{
+    
+    line-height: 615%;
+    min-height: 100vh;
+    width: 12%;
+    background-color: #AE962Fff;
+}
+
+  @font-face {
+    font-family
+    : 'sfFont'; 
+    src: url('../fontRendu/CityBrawlersBoldCaps.otf');
+}
+  
+.millieuPage{
+
+    display: flex;
+
+}
+
+
+
+form{
+      border: 1px solid rgba(153, 153n, 153, 0.6);
+      align-self: center;
+      position: absolute;
+      left: 43%;
+  }
+
+  form > div {
+      margin: 30px 20px;
+  }
+
+  label{
+      display: block;
+      margin-bottom: 8px;
+  }
+
+  input{
+      height: 20px;
+      width: 80%;
+  }
+
+  button {
+      margin-left : 20px;
+      margin-bottom: 30px;
+      padding: 10px 32px;
+      cursor: pointer;
+  }
+
+  .message-error {
+      border: 1px solid rgba(212, 42, 0, 1);
+      color: rgb(212, 42, 0);
+      background-color: rgba(212, 42, 0, 0, 4);
+      padding: 16px 32px;
+      margin-bottom: 20px;
+      display: none;
+  }
+
+  .message-success {
+      border: 1px solid rgb(81, 150, 2) ;
+      color: rgb(81, 150, 2);
+      background-color: rgba(113, 212, 0, 0, 4);
+      padding: 16px 32px;
+      margin-bottom: 20px;
+      display: none;
+  }
+
+  .message-error.visible{
+    display: block;
+  }
+
+  .failure{
+    background-color: rgba(255, 0, 0, 0.301);
+  }
+  .success{
+    background-color: rgba(14, 223, 14, 0.338)
+    ;
+  }

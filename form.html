@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../html-css-rendu/cssRendu/form.css">
+</head>
+
+
+
+<body>
+    <header>
+        <div class="topPage">
+            <div>
+                <a href="../html-css-rendu/index.html"></a>
+                <img class="sacDeFrappe" src="../html-css-rendu/imgRendu/sacDeFrappe.png" alt="une icône de sac de frappe"> 
+                </a>  
+            </div>     
+            
+            <h1>Buckler</h1>
+            
+            <h2><a href="../html-css-rendu/form.html">Connectez-vous</a></h2>
+            
+        </div>
+    </header>
+    <div class="millieuPage">  
+        
+        <nav>
+            <h2>Menu</h2>
+
+            <h3><a href="../html-css-rendu/salles.html">Nos salles</a></h3>
+
+            <h3><a href="../html-css-rendu/coach.html">Nos coach</a></h3>
+
+            <h3>Nos programmes : </h3>
+
+            <p>Classique</p>
+
+            <p>Premium</p>
+        </nav>   
+    
+   
+        <div class="message-error">
+            <ul></ul>
+        </div>
+        <div class="message-success">
+            Formulaire envoyé !
+        </div>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="fName">Prénom</label>
+                <input type="text" name="fName" id="fName">
+            </div>
+            <div>
+                <label for="lName">Nom</label>
+                <input type="text" name="lName" id="lName">
+            </div>
+            <div>
+                <label for="email">Adresse Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="password">Mot de passe</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="password2">Confirmez votre mot de passe</label>
+                <input type="password2" name="password2" id="password2">
+            </div>
+
+            <button type="submit"> S'inscrire</button>
+
+        </form>
+
+    </div>
+
+    <script src="../html-css-rendu/jsRendu/form.js"></script>
+</body>
+</html>

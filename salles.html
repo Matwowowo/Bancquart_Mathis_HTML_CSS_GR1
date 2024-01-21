@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="../html-css-rendu/cssRendu/salles.css">
+    
+
 </head>
 <body>
     
@@ -45,20 +48,37 @@
                         <p class="textServices">Buckler propose ses services dans différentes grandes villes avec des salles équipées de machines dernier cri :</p>
                     </div>
 
-                    <div class="flexImages">
+                    <!-- <div class="flexImages">
                         <img class="metroCity" src="../html-css-rendu/imgRendu/metro city.jpeg" alt="Une photo de la ville de Metro City, du jeu Street fighter 6">
                         <img class="metroCity" src="../html-css-rendu/imgRendu/paris.jpg" alt="Une photo de la ville de Paris">
                         <img class="metroCity" src="../html-css-rendu/imgRendu/chine.jpg" alt="Une photo de la ville de Shanghai, plus particulièrement d'un temple">
 
+                    </div> -->
+
+                    <div class="swiper paysSlides">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="metroCity" src="../html-css-rendu/imgRendu/metro city.jpeg" alt="Une photo de la ville de Metro City, du jeu Street fighter 6">
+                                <p class="textSlide">Metro City</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="metroCity" src="../html-css-rendu/imgRendu/paris.jpg" alt="Une photo de la ville de Paris">
+                                <p class="textSlide">Paris</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="metroCity" src="../html-css-rendu/imgRendu/chine.jpg" alt="Une photo de la ville de Shanghai, plus particulièrement d'un temple">
+                                <p class="textSlide" >Shanghai</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+
+                        
                     </div>
 
-                    <div class="nomVilles">
-
-                        <h3>Metro City</h3>
-                        <h3>Paris</h3>
-                        <h3>Shanghai</h3>
-
-                    </div>
+                    
                 </section>
             
     
@@ -66,6 +86,7 @@
 
     </main>
     
-    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="../html-css-rendu/jsRendu/salles.js"></script>
 </body>
 </html>
